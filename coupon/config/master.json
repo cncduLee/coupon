@@ -1,0 +1,11 @@
+{
+    "name": "api.coupon.com",
+    "port": 8001,
+    "db": {
+        "url": "mongodb://127.0.0.1/loader_core_data"
+    },
+    "log": {
+        "path": "logs",
+        "file": "coupon.log"
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "author": {
+    "name": "taber",
+    "email": "taber.huang@gmail.com"
+  },
+  "name": "api.butler.com",
+  "version": "0.0.1",
+  "description": "",
+  "homepage": "http://git.oschina.net/taber/CoreDataServer",
+  "main": "app.js",
+  "engines": {
+    "node": ">=0.10.x"
+  },
+  "dependencies": {
+    "restify": ">=2.x",
+    "mongoose": "3.x",
+    "node-conf": ">=0.0.5",
+    "bunyan": "~0.21.4",
+    "underscore": "~1.5.1",
+    "q": "~0.9.6"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.0",
+    "supertest": "~0.8.1"
+  },
+  "scripts": {
+    "start": "forever start -w server.js"
+  }
+}
